@@ -39,9 +39,14 @@ Once capture settings are set up, once the sender and reicever functions are run
 
 Without HMAC implementation, packets containing attacks are captured:
 
-With HMAC implementatin, only packets considered safe are captures, along with their HMAC.
+**<p align="center">Figure 2: Packets captured without HMAC.</p>**
+<p align="center">
+<img src="https://github.com/eerikatt/cs4371project/blob/main/figure3.jpeg" width = "800" />
+</p>
 
-**<p align="center">Figure 2: Packets captured with HMAC.</p>**
+With HMAC implementatin, only packets considered safe are captured, along with their HMAC.
+
+**<p align="center">Figure 3: Packets captured with HMAC.</p>**
 <p align="center">
 <img src="https://github.com/eerikatt/cs4371project/blob/main/figure2.png" width="800" />
 </p>
