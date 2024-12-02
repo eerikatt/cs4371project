@@ -29,6 +29,17 @@ To use the program over a Wifi connection, change the IP address in the sender a
 Change the capture setting to "Wi-Fi: en0". Once that is done, the UDP filter needs to be applied. If needed, change the 
 port number in Wireshark settings or by using the filter udp.port=='PORT', where 'PORT' is the desired port number.
 
+Once capture settings are set up, once the sender and reicever functions are run, you will be able to see the packets being sent and received.
+
+Without HMAC implementation, packets containing attacks are captured:
+
+With HMAC implementatin, only packets considered safe are captures, along with their HMAC.
+
+**<p align="center">Figure 2: Packets captured with HMAC.</p>**
+<p align="center">
+<img src="https://github.com/eerikatt/cs4371project/blob/main/figure2.png" width="800" />
+</p>
+
 
 
 ### Requirements and Libraries
