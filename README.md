@@ -10,6 +10,12 @@ authentication system using hash-based message authentication codes (HMAC).
 </p>
 
 ## Implementation 
+
+### Cloning the Repository
+
+
+To clone the repository, use the following command : git clone https://github.com/eerikatt/cs4371project
+
 ### Dataset
 CICIDS2017 dataset. This dataset contains generated network traffic including packets where a cyber-attack was detected.
 * Available at: https://www.unb.ca/cic/datasets/ids-2017.html
