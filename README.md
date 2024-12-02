@@ -16,6 +16,24 @@ authentication system using hash-based message authentication codes (HMAC).
 
 To clone the repository, use the following command : git clone https://github.com/eerikatt/cs4371project
 
+### Intrusion detection system
+
+An intrusion detection system (IDS) is a tool created to monitor network traffic for signs of suspicious behavior. Such behavior can indicate
+a cyber-attack. 
+
+The proposed IDS in [1] detects potential attacks using machine learning to identify attacks. We have implemented the HMAC response system
+using this system to simulate how packets that have passed through an IDS would be tagged. To use the IDS included in this repository, the following requirements and libraries
+are needed:
+* Python
+* scikit-learn
+* Xgboost
+* lightgbm
+* catboost
+* FCBF (https://github.com/SantiagoEG/FCBF_module)
+* scikit-optimize 
+* hyperopt
+* River
+
 ### Dataset
 CICIDS2017 dataset. This dataset contains generated network traffic including packets where a cyber-attack was detected.
 * Available at: https://www.unb.ca/cic/datasets/ids-2017.html
