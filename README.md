@@ -16,7 +16,7 @@ CICIDS2017 dataset. This dataset contains generated network traffic including pa
 * A sample of this dataset is included in the provided code.
 
 ### Hash-Based Message Authentication Code (HMAC)
-HMAC is a mechanism used to 
+HMAC is a mechanism used to verify the authenticity and and integrity of a message. A message authenitcation code is a code calculated from a message and either sent or stored with it in order for the receiver to verify the message. HMAC uses a hash algorithm such as SHA-256 to calculate this code. The receiver of this message shares a secret key with the sender in order to verify the message. The receiver uses the secret key and the hash algotrithm to compute the HMAC of the message. If the computed HMAC matches with the received HMAC, the message is verified as genuine. Some researchers have created other HMAC authentication programs to be used with the Local Interconnect Networks bus. [2]
 
 ### Packet Capture
 * The default IP address in this repository is '127.0.0.1'.
@@ -33,6 +33,7 @@ port number in Wireshark settings or by using the filter udp.port=='PORT', where
 
 ### Requirements and Libraries
 * Python
+* json
 * hashlib
 * pandas
 * hmac
@@ -43,3 +44,4 @@ port number in Wireshark settings or by using the filter udp.port=='PORT', where
 ## Acknowledgements
 * [1] L. Yang, A. Moubayed, and A. Shami, “MTH-IDS: A Multi-Tiered Hybrid Intrusion Detection System for Internet of Vehicles,” 
 IEEE Internet of Things Journal, vol. 9, no. 1, pp. 616-632, Jan.1, 2022, doi: 10.1109/JIOT.2021.3084796.
+* [2] F. Páez and H. Kaschel, "A Proposal for Data Authentication, Data Integrity and Replay Attack Rejection for the LIN Bus," 2021 IEEE CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON), Valparaíso, Chile, 2021, pp. 1-7, doi: 10.1109/CHILECON54041.2021.9702979.
