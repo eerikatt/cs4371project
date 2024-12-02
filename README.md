@@ -44,4 +44,5 @@ port number in Wireshark settings or by using the filter udp.port=='PORT', where
 ## Acknowledgements
 * [1] L. Yang, A. Moubayed, and A. Shami, “MTH-IDS: A Multi-Tiered Hybrid Intrusion Detection System for Internet of Vehicles,” 
 IEEE Internet of Things Journal, vol. 9, no. 1, pp. 616-632, Jan.1, 2022, doi: 10.1109/JIOT.2021.3084796.
+
 * [2] F. Páez and H. Kaschel, "A Proposal for Data Authentication, Data Integrity and Replay Attack Rejection for the LIN Bus," 2021 IEEE CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON), Valparaíso, Chile, 2021, pp. 1-7, doi: 10.1109/CHILECON54041.2021.9702979.
