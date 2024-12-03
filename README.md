@@ -81,7 +81,6 @@ If using the IDS from [1] and FCBF module is not found:
 
 If packets are not being sent or received:
 * Ensure both sender and receiver function use the same port.
-* 
 
 ### Requirements and Libraries
 * Python
