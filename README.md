@@ -1,4 +1,4 @@
-# HMAC response system
+# HMAC Response System
 
 This repository contains the code for the intrusion response system based on the intrusion 
 detection system from [1]. The code is compatible with any IDS system and includes a proposed
