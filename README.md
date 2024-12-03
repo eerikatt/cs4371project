@@ -16,7 +16,7 @@ authentication system using hash-based message authentication codes (HMAC).
 
 To clone the repository, use the following command : git clone https://github.com/eerikatt/cs4371project
 
-### Intrusion detection system
+### Intrusion Detection System
 
 An intrusion detection system (IDS) is a tool created to monitor network traffic for signs of suspicious behavior. Such behavior can indicate
 a cyber-attack. 
