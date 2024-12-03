@@ -6,7 +6,7 @@ authentication system using hash-based message authentication codes (HMAC).
 
 **<p align="center">Figure 1: The overview of the HMAC response system model.</p>**
 <p align="center">
-<img src="https://github.com/eerikatt/cs4371project/blob/master/figure1.jpeg" width="700" />
+<img src="https://github.com/eerikatt/cs4371project/blob/master/figures/figure1.jpeg" width="700" />
 </p>
 
 ## Implementation 
@@ -61,14 +61,14 @@ Without HMAC implementation, packets containing attacks are captured:
 
 **<p align="center">Figure 2: Packets captured without HMAC.</p>**
 <p align="center">
-<img src="https://github.com/eerikatt/cs4371project/blob/master/figure3.jpeg" width = "800" />
+<img src="https://github.com/eerikatt/cs4371project/blob/master/figures/figure3.jpeg" width = "800" />
 </p>
 
 With HMAC implementatin, only packets considered safe are captured, along with their HMAC.
 
 **<p align="center">Figure 3: Packets captured with HMAC.</p>**
 <p align="center">
-<img src="https://github.com/eerikatt/cs4371project/blob/master/figure2.png" width="800" />
+<img src="https://github.com/eerikatt/cs4371project/blob/master/figures/figure2.png" width="800" />
 </p>
 
 ### Troubleshooting
