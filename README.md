@@ -71,7 +71,17 @@ With HMAC implementatin, only packets considered safe are captured, along with t
 <img src="https://github.com/eerikatt/cs4371project/blob/master/figure2.png" width="800" />
 </p>
 
+### Troubleshooting
 
+A file will not read:
+* Make sure the file path is correct, the original code may referecnce a different location than where your files are stored.
+
+If using the IDS from [1] and FCBF module is not found:
+* Ensure sure you have cloned it from github.
+
+If packets are not being sent or received:
+* Ensure both sender and receiver function use the same port.
+* 
 
 ### Requirements and Libraries
 * Python
